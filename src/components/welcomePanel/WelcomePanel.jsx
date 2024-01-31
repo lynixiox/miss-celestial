@@ -12,7 +12,7 @@ const WelcomePanel = () => {
                     <styled.WelcomeText>
                     <Typewriter
                         onInit={(typewriter) => {
-                            typewriter.typeString("Mrs Celestial")
+                            typewriter.typeString("Miss Celestial")
                             .pause(2500)
                             .start()
                         }}

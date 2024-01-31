@@ -13,8 +13,8 @@ const Icons = (props) => {
     } = props;
 
     const iconList = {
-        facebook: <MdFacebook onClick={() => {onClick("//www.facebook.com/profile.php?id=61555682172190")}} key="facebook" size={iconSize} color={iconColor}/>,
-        instagram: <FaInstagram onClick={()=> {onClick("//www.instagram.com/mrscelestialofficial/")}}key="instagram" size={iconSize} color={iconColor}/>,
+        facebook: <MdFacebook onClick={() => {onClick("//www.facebook.com/profile.php?id=61556082084779")}} key="facebook" size={iconSize} color={iconColor}/>,
+        instagram: <FaInstagram onClick={()=> {onClick("//www.instagram.com/misscelestialofficial/")}}key="instagram" size={iconSize} color={iconColor}/>,
         smarthome: <FaHome key="smartHome" size={iconSize} color={iconColor}/>,
         software: <FaCode key="software" size={iconSize} color={iconColor}/>,
         menuClosed: <FaTimes key="menuClosed" size={iconSize} color={iconColor}/>,

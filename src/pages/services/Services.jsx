@@ -15,11 +15,11 @@ const Services = () => {
         lightTextDesc : false,
         
         headline : 'Hoodies',
-        description : 'Pre register now to find out more about our Mrs Celestial Hoodies.',
+        description : 'Pre register now to find out more about our Miss Celestial Hoodies.',
        // description2 : 'By combining all their skills, collecting the right research and taking the necessary steps to make sure they know what they are doing, they are able to provide one-of-a-kind services.',
         buttonLabel : 'Find Out More',
         imgStart: '',
-        img : 'images/Mrs_Celestial_Hoodies.png',
+        img : 'images/Miss_Celestial_Hoodies.png',
         alt : 'Why Us Network Solution Service',
         imgStart: 'start',
         barImage: BarImage,

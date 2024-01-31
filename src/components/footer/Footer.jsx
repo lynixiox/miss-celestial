@@ -40,10 +40,10 @@ const Footer = () => {
                 <styled.FooterMediaWrap isMobile={isMobile}>
                     <styled.FooterLogo isMobile={isMobile}>
                         <styled.FooterWhyUs isMobile={isMobile}>
-                            Mrs Celestial
+                            Miss Celestial
                         </styled.FooterWhyUs>
                     </styled.FooterLogo>
-                    <styled.FooterCopyRight isMobile={isMobile}>Mrs Celestial © 2024</styled.FooterCopyRight>
+                    <styled.FooterCopyRight isMobile={isMobile}>Miss Celestial © 2024</styled.FooterCopyRight>
                     <styled.FooterIcons isMobile={isMobile}>
                         <Icons onClick={handleClick} iconName="facebook" iconSize="1.5em"/>
                         <Icons onClick={handleClick} iconName="instagram" iconSize="1.5em"/>

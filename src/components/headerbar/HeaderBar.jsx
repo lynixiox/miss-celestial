@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavItem from "../navItem/NavItem";
 import * as styled from './HeaderBar.styles'
-import logo from '../../images/mrscelestial-logo.png'
+import logo from '../../images/miss-celestial-logo.png'
 import Icons from "../icons/Icons";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
