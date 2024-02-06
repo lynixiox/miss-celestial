@@ -13,22 +13,24 @@ const ContactForm = () => {
   const [surname, setSurname] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
+  const [instagram, setInstagram] = useState("");
   const form = useRef();
   const submitRequest = (e) => {
 
     e.preventDefault();
-    emailjs.sendForm("service_hsv9lnm","template_9mx6813",form.current, "IIzYooy1YNDk5qV6W").then((result) => {
+    emailjs.sendForm("service_m0qr3y7","template_bkt62at",form.current, "dK7P27QH-dMR0nbns").then((result) => {
         setName("");
         setSurname("");
         setMessage("");
         setEmail("")  
+        setInstagram("");
         toast.success("Thank you! We will get back to you shortly");
         },(error)=>{
           setName("");
           setSurname("");
           setMessage("");
           setEmail("")  
+          setInstagram("");
           toast.error("Request Failed, Please try a different Contact method");
 
         })
@@ -47,9 +49,9 @@ const ContactForm = () => {
                 <TextInput type="text" label='Name' name="from_name" textColor='white' borderBottomColor='white' value={name} onChange={(event) => setName(event.target.value)}/>
                 <TextInput label='Surname' type="text" name="user_surname" textColor='white' borderBottomColor='white' value={surname} onChange={(event) => setSurname(event.target.value)}/>
                 <TextInput label='Email' type="text" name="user_email" textColor='white' borderBottomColor='white' value={email} onChange={(event) => setEmail(event.target.value)}/>
-                <TextInput label='Message' type="text" name="message"textColor='white' borderBottomColor='white'  value={message} onChange={(event) => setMessage(event.target.value)}/>
+                <TextInput label='Country' type="text" name="message"textColor='white' borderBottomColor='white'  value={message} onChange={(event) => setMessage(event.target.value)}/>
+                <TextInput label='Instagram' type="text" name="instagram"textColor='white' borderBottomColor='white'  value={instagram} onChange={(event) => setInstagram(event.target.value)}/>
                 <CustomButton type="submit" label="submit" onClick={e => submitRequest(e)}/>
-               
                 </styled.ContactData>
                 
             </styled.ContactContent>

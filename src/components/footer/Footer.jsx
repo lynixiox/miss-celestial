@@ -29,10 +29,10 @@ const Footer = () => {
                 </styled.FooterLinkWrapper>
                 <styled.FooterLinkWrapper isMobile={isMobile}>
                     <styled.FooterLinkItem isMobile={isMobile}>    
-                        <NavItem destination="/Services" text="Services"/>
+                        <NavItem destination="/merchandise" text="Merchandise"/>
                     </styled.FooterLinkItem>
                     <styled.FooterLinkItem isMobile={isMobile}>    
-                        <NavItem destination="/Contact" text="Contact Us"/>
+                        <NavItem destination="/pre-register" text="Pre Register"/>
                     </styled.FooterLinkItem>
                 </styled.FooterLinkWrapper>
             </styled.FooterLinks >
